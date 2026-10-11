@@ -1,7 +1,9 @@
 import react from 'react';
-function Card({userName, btnText="Read more"}) { //here btnText has a default value.
-    // console.log("props", props);
-    console.log(userName);
+// console.log("props", props);
+
+function Card({userName, btnText="Read more"}) { //here userName and btnText are props and btnText has a default value.
+    // function Card(props){ iss props ke paas App.jsx mein pass kiye gye properties ki value hoti hai.
+    // console.log(userName);
     
     return (
         <div className="max-w-xs rounded-md shadow-md bg-black text-gray-100">
