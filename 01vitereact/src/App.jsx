@@ -6,7 +6,7 @@ function App() {
   return (
     <>
     <Chai />
-    <h1>Hello {username}</h1> {/* here {username} is a evaluated expression. */}
+    <h1>Hello {username}</h1> {/* here {username} is a evaluated expression. yahan ham if-else wegerah nhi likhte hai, yahan sirf evaluated expression heen likha jata hai*/}
     <p>Lorem ipsum dolor sit amet.</p>
     </> //in jsx we can only return one parent element so we use React fragments to return more.
     //it is like we write a div but we don't want to write div many times. so we remove the <div>...</div> and write <>...</>.
