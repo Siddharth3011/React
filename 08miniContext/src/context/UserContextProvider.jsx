@@ -1,5 +1,5 @@
 import React from "react";
-import UserContext from "./Usercontext";
+import UserContext from "../Usercontext";
 
 const UserContextProvider = ({children}) => {
     const [user, setUser] = React.useState(null) //intial value null hoga jab tak login na ho jaye
